@@ -44,7 +44,7 @@ useEffect(()=>{
           <li Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Contact </li>
         </ul>
         <ul  style={{color : `${textcolor}`}} className='hidden lg:flex ' >
-          <li  className=' text-sm flex items-center hover:text-gray-500 '> <input type="text" className='p-2 pl-6 rounded-full text-blue-900 font-semibold  focus:border-blue-500'  placeholder='Search' /><AiOutlineSearch size={25} className='relative -translate-x-9' /></li>
+          <li  className=' text-sm flex items-center hover:text-gray-500 '> <input type="text" className='p-2 outline-none border-none pl-6 rounded-full text-blue-900 font-semibold  focus:border-blue-500'  placeholder='Search' /><AiOutlineSearch size={25} className='relative -translate-x-9' /></li>
           </ul>
           {/* Mobile Button  */}
           <div onClick={handlenav}   className='block  lg:hidden z-10 '>
