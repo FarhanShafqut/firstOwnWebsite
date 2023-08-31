@@ -1,4 +1,5 @@
 
+import Fotter from './(components)/fotter/page'
 import Navbar from './(components)/navbar/page'
 import './globals.css'
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
             <body className={inter.className}>
          {/* <Navbar/> */}
               {children}
+              <Fotter/>
               </body>
     </html>
   )

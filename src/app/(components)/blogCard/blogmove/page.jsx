@@ -79,16 +79,16 @@
 //           <Slider {...settings} > 
 //           {/* className="max-w-3xl mx-auto"  */}
 //             <div>
-//               <div>{card}</div>
+//               <h3>{card}</h3>
 //             </div>
 //             <div>
-//               <div>{card2}</div>
+//               <h3>{card2}</h3>
 //             </div>
 //             <div>
-//               <div>{card3}</div>
+//               <h3>{card3}</h3>
 //             </div>
 //             <div>
-//               <div>{card4}</div>
+//               <h3>{card4}</h3>
 //             </div>
 //           </Slider>
 //         </div>
@@ -111,8 +111,8 @@ function SampleNextArrow(props) {
         display: "block",
         background: "blue", // Changed to lowercase 'blue' for consistency
         position: "absolute",
-        right: "5%", // Adjust this value as needed for your desired positioning
-        top: "-7%",   // Vertically center the arrow
+        right: "-6%", // Adjust this value as needed for your desired positioning
+        top: "30%",   // Vertically center the arrow
         transform: "translateY(-30%)", // Vertically center the arrow using translation
         zIndex: 1,    // Ensure the arrow appears above the slider content
       }}
@@ -131,8 +131,8 @@ function SamplePrevArrow(props) {
         display: "block",
         background: "blue", // Changed to lowercase 'blue' for consistency
         position: "absolute",
-        left: "80%", // Adjust this value as needed for your desired positioning
-        top: "-7%",  // Vertically center the arrow
+        left: "100%", // Adjust this value as needed for your desired positioning
+        top: "40%",  // Vertically center the arrow
         transform: "translateY(-30%)", // Vertically center the arrow using translation
         zIndex: 1,   // Ensure the arrow appears above the slider content
       }}
@@ -141,26 +141,21 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default class Multiplesmoves extends Component {
+export default class BlogMove extends Component {
   render() {
     const settings = {
       dots: false,
-      infinite: true,
-      slidesToShow: 3,
+      infinite: false,
+      slidesToShow: 2,
       slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-      
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToShow: 2,
+            slidesToScroll: 1,
           },
         },
         {
@@ -172,30 +167,20 @@ export default class Multiplesmoves extends Component {
         },
       ],
     };
-    const { card1, card2, card3, card4 ,card5, card6 , card7,card8,  } = this.props;
+    const { card, card2, card3, card4 } = this.props;
     return (
       <div >
         {/* Removed redundant arrow components */}
-        <h1 className="text-blue-600 text-2xl my-2"  >Our Portfolio</h1>
-        <p className="text-4xl font-semibold my-2 " >Take a look at our latest work</p>
-        <Slider {...settings} >
-          <div className="p-2  " >
-            <div className="mb-5"  >{card1}</div>
-            <div>{card2}</div>
+        <Slider {...settings}>
+          <div className="px-3" >
+            <h3>{card}</h3>
           </div>
-          <div className="p-2 " >
-            <div className="mb-5"  >{card3}</div>
-            <div>{card4}</div>
+          <div className="px-3" >
+            <h3>{card2}</h3>
           </div>
-          <div className="p-2 " >
-            <div className="mb-5"  >{card4}</div>
-            <div>{card5}</div>
+          <div className="px-3" >
+            <h3>{card3}</h3>
           </div>
-          <div className="p-2 " >
-            <div className="mb-5"  >{card7}</div>
-            <div>{card8}</div>
-          </div>
-
         </Slider>
       </div>
     );
