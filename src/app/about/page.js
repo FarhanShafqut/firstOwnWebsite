@@ -1,7 +1,5 @@
 
 import Image from "next/image";
-import Blink from "../(components)/Typewriter/page";
-import Typewriter from "../(components)/Typewriter/page";
 
 
 export default function about() {
