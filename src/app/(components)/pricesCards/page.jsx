@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import PriceCard from '../pricecard/page'
 import { useState } from 'react'
