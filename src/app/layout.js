@@ -1,4 +1,4 @@
-'use client'
+
 import Fotter from './(components)/fotter/page'
 import Navbar from './(components)/navbar/page'
 import './globals.css'
