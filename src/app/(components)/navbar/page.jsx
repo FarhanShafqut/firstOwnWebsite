@@ -41,7 +41,7 @@ useEffect(()=>{
           <li> <Link href='./about' className='p-4   hover:text-slate-500 cursor-pointer'> About</Link> </li>
           {/* <li> <Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Page</Link> </li> */}
           <li> <Link href='./service' className='p-4   hover:text-slate-500 cursor-pointer'> Services </Link> </li>
-          <li> <Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Portfolio</Link> </li>
+          {/* <li> <Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Portfolio</Link> </li> */}
           <li> <Link href='./blog' className='p-4   hover:text-slate-500 cursor-pointer'> Blog</Link> </li>
           <li> <Link href='./contact' className='p-4   hover:text-slate-500 cursor-pointer'>Contact  </Link> </li>
         </ul>
@@ -57,7 +57,7 @@ useEffect(()=>{
           <ul>
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Home</li>
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> About</li>
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Page</li>
+          {/* <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Page</li> */}
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Services </li>
           {/* <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Portfolio</li> */}
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Blog</li>
