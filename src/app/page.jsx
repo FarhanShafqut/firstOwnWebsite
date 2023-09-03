@@ -1,4 +1,4 @@
-'use client'
+
 import Image from 'next/image'
 import Button from './(components)/Button/page'
 import Navbar from './(components)/navbar/page'
