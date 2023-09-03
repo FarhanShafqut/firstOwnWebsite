@@ -59,7 +59,7 @@ useEffect(()=>{
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> About</li>
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Page</li>
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Services </li>
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Portfolio</li>
+          {/* <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Portfolio</li> */}
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Blog</li>
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Contact </li>
           <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Home</li>
