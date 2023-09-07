@@ -53,16 +53,15 @@ useEffect(()=>{
             {nav ? <AiOutlineClose size={20} style={{color : `${textcolor}`,  }} />  :  <AiOutlineMenu size={20} style={{color : `${textcolor}`}}  />}
           </div>
           {/* Mobile menu  */}
-          <div className={nav ? 'lg:hidden absolute top-0 left-0 bottom-0 right-0 flex justify-center items-center w-full h-screen bg-black text-white ease-in duration-300 ' : 'lg:hidden absolute top-0 left-[-100%] bottom-0 right-0 flex justify-center items-center w-full h-screen bg-black text-white ease-in duration-300 '}>
+          <div className={nav ? 'lg:hidden absolute top-0 left-0 bottom-0 right-0 flex justify-center items-center w-full h-screen bg-white text-white ease-in duration-300 ' : 'lg:hidden absolute top-0 left-[-100%] bottom-0 right-0 flex justify-center items-center w-full h-screen bg-white text-white ease-in duration-300 '}>
           <ul>
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Home</li>
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> About</li>
-          {/* <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Page</li> */}
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Services </li>
-          {/* <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Portfolio</li> */}
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Blog</li>
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Contact </li>
-          <li Link href='./' className='p-4 text-4xl hover:text-gray-500 cursor-pointer '> Home</li>
+          <li> <Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Home</Link> </li>
+          <li> <Link href='./about' className='p-4   hover:text-slate-500 cursor-pointer'> About</Link> </li>
+          {/* <li> <Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Page</Link> </li> */}
+          <li> <Link href='./service' className='p-4   hover:text-slate-500 cursor-pointer'> Services </Link> </li>
+          {/* <li> <Link href='./' className='p-4   hover:text-slate-500 cursor-pointer'> Portfolio</Link> </li> */}
+          <li> <Link href='./blog' className='p-4   hover:text-slate-500 cursor-pointer'> Blog</Link> </li>
+          <li> <Link href='./contact' className='p-4   hover:text-slate-500 cursor-pointer'>Contact  </Link> </li>
           <li  className=' text-sm flex items-center hover:text-gray-500 cursor-pointer '> <input type="text" className='p-2 pl-6 rounded-full text-blue-900 font-semibold focus:border-blue-500'  placeholder='Search' /><AiOutlineSearch size={25} className='relative -translate-x-9' /></li>
           </ul>
           </div>
