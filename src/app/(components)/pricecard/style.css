@@ -1,3 +1,4 @@
-.shadow {
-    filter: drop-shadow(20px 20px 20px black);
-}
+
+.hover-effect:hover .hover-target {
+    background-color: lightblue; 
+  }
