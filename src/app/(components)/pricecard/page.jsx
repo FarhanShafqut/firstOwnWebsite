@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Button from '../Button/page'
-import 'src/app/(components)/pricecard/style.css'
+
 
 export default function PriceCard(props) {
   // const [value,setvalue] = useState(props.value)
@@ -31,7 +31,7 @@ export default function PriceCard(props) {
             Business Analysis
           </p>
           <span className='text-center pb-4 ' >
-          <Button css='hover-target'  txt={'Start Now'}/>
+          <Button  txt={'Start Now'}/>
           </span>
         </div>
       </div>
