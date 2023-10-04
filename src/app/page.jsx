@@ -93,7 +93,7 @@ If you are going to use a passage of Lorem Ipsum, `} source={'/webs.jpg'} txt={'
         <div className='  grid grid-cols-1 md:flex  md:justify-center' >
           <div className='  flex-col justify-center my-10 md:my-24  max-w-sm  grid grid-cols-1   '>
             <h2 className='text-blue-600 my-2 md:my-0' >OUR BLOG</h2>
-            <p className='font-semibold text-2xl  my-2 md:my-0'>Latest News & Blog</p>
+            <p className='font-semibold text-2xl  my-2 md:my-0'>Latests news  & Blogs</p>
             <p className=' my-2 md:my-0'>Lorem ipsum dolor sit amet, consectetur adipiscing
               sed do eiusmod tempor incididunt labo. </p>
             <Inputmail />
